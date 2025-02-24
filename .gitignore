@@ -1,0 +1,79 @@
+# Perl モジュールのビルドファイル
+/blib/
+/.build/
+_build/
+cover_db/
+inc/
+Build
+Build.bat
+.last_cover_stats
+Makefile
+Makefile.old
+MANIFEST.bak
+META.yml
+META.json
+MYMETA.*
+nytprof.out
+pm_to_blib
+*.o
+*.bs
+
+# Devel::Cover
+cover_db/
+
+# Devel::NYTProf
+nytprof.out
+
+# Dizt::Zilla
+/.build/
+
+# Module::Build
+_build/
+Build
+Build.bat
+
+# Module::Install
+inc/
+
+# ExtUtils::MakeMaker
+/blib/
+/*.tar.gz
+/*.zip
+/MANIFEST.bak
+/Makefile
+/Makefile.old
+/MANIFEST
+/META.*
+/MYMETA.*
+/pm_to_blib
+
+# Cartonで管理される依存関係
+/local/
+.carton/
+carton.lock
+
+# エディタの一時ファイル
+.*.swp
+*~
+.project
+.idea/
+*.iml
+.vscode/
+*.kdev4
+.DS_Store
+
+# 実行時キャッシュ
+.perl-version
+.plenv-version
+
+# ログファイル
+*.log
+log/
+logs/
+
+# 一時ファイル
+tmp/
+temp/
+
+# その他
+.env

@@ -1,0 +1,5 @@
+{
+  "perl.perlInc": ["lib"],
+  "perl.critic.severity": 5,
+  "perl.interpreter": "/Users/username/.plenv/versions/5.40.1/bin/perl"
+}
