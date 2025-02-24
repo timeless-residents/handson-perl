@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: handson-perl
+    env: docker
+    buildCommand: docker build -t handson-perl .
+    startCommand: carton exec -- plackup -E production -s Starman --workers=4 script/app.psgi

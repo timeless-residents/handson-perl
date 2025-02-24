@@ -4,4 +4,6 @@ WORKDIR /app
 COPY . .
 
 RUN cpanm --installdeps .
-CMD ["carton", "exec", "--", "plackup", "-E", "production", "-s", "Starman", "--workers=4", "script/app.psgi"]
+RUN chmod +x startup.sh
+
+CMD ["./startup.sh"]
